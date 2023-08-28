@@ -1,0 +1,2572 @@
+[
+  {
+    "security_analysis": [
+      {
+        "id": "87ff23a7-1498-4677-8b6f-e81d23966917",
+        "name": "Network Security Assessment",
+        "description": "Comprehensive analysis of network security measures",
+        "status": "In Progress",
+        "created_at": "2023-08-27T20:14:13.800Z",
+        "updated_at": "2023-08-27T22:32:25.193Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92106202-07ee-4219-9043-5b52ee07f6b8",
+        "name": "Vulnerability Scanning",
+        "description": "Identifying vulnerabilities and recommending safeguards",
+        "status": "Completed",
+        "created_at": "2023-08-27T13:52:50.165Z",
+        "updated_at": "2023-08-27T22:55:41.812Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76fca00b-6953-49a8-bb4b-133da5db30e4",
+        "name": "Penetration Testing",
+        "description": "Simulating real-world attacks to assess system security",
+        "status": "Pending Review",
+        "created_at": "2023-08-27T12:24:03.542Z",
+        "updated_at": "2023-08-28T05:16:29.229Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf7ee4fa-cfde-43d5-894a-04de949c2206",
+        "name": "Security Audit",
+        "description": "Evaluating security controls and policies",
+        "status": "On Hold",
+        "created_at": "2023-08-28T04:33:50.891Z",
+        "updated_at": "2023-08-27T22:24:37.024Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d4266ae-7382-4d2a-8502-63888adae21f",
+        "name": "Threat Intelligence Analysis",
+        "description": "Analyzing potential threats and providing actionable insights",
+        "status": "Scheduled",
+        "created_at": "2023-08-27T21:17:53.917Z",
+        "updated_at": "2023-08-27T16:45:50.219Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "2848e58d-59c7-46ed-b412-39c6351b5629",
+        "name": "Log File Monitoring",
+        "description": "Monitoring and analyzing log files for security incidents",
+        "status": "Active",
+        "created_at": "2023-08-27T20:18:46.918Z",
+        "updated_at": "2023-08-27T09:32:45.995Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "592ddd77-1962-46b9-95ef-bba157374dcc",
+        "name": "Anomaly Detection",
+        "description": "Identifying abnormal patterns and behaviors in log data",
+        "status": "Inactive",
+        "created_at": "2023-08-27T08:47:50.735Z",
+        "updated_at": "2023-08-27T15:38:45.486Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fac4e5a-0d41-4e9e-8afa-4dd9d516e36c",
+        "name": "Log Data Visualization",
+        "description": "Visualizing log data to gain insights and identify trends",
+        "status": "Error",
+        "created_at": "2023-08-27T18:35:28.740Z",
+        "updated_at": "2023-08-27T15:10:31.228Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f18133c-4c33-42ed-8a2e-2801286c3d4d",
+        "name": "Log File Parsing",
+        "description": "Parsing log files to extract relevant information",
+        "status": "Warning",
+        "created_at": "2023-08-27T12:18:56.809Z",
+        "updated_at": "2023-08-28T01:13:15.911Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56d1bcfb-4fd3-455e-b2d9-9e1fb00dfde1",
+        "name": "Log Data Correlation",
+        "description": "Correlating log data from multiple sources to identify relationships",
+        "status": "Unknown",
+        "created_at": "2023-08-28T05:49:28.854Z",
+        "updated_at": "2023-08-28T05:27:32.444Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "aae18544-57fd-4016-b84d-1e6c5a00c100",
+        "name": "IT Infrastructure Assessment",
+        "description": "Assessing the current state of IT infrastructure",
+        "status": "On Track",
+        "created_at": "2023-08-27T20:40:06.152Z",
+        "updated_at": "2023-08-28T05:41:16.694Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f2b98f4-a9ca-45ba-a056-1c0fdfc9be2a",
+        "name": "Cloud Readiness Evaluation",
+        "description": "Evaluating readiness for cloud migration",
+        "status": "Behind Schedule",
+        "created_at": "2023-08-27T22:35:30.245Z",
+        "updated_at": "2023-08-27T18:35:13.228Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4fc5c13-a842-484d-aacf-ab21ca43c9f1",
+        "name": "Network Performance Analysis",
+        "description": "Analyzing network performance and identifying bottlenecks",
+        "status": "Completed",
+        "created_at": "2023-08-28T04:41:07.263Z",
+        "updated_at": "2023-08-27T10:45:35.145Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82b9f197-40e6-4300-8570-e8569c388993",
+        "name": "System Capacity Planning",
+        "description": "Planning for future system capacity requirements",
+        "status": "Not Started",
+        "created_at": "2023-08-27T15:20:47.262Z",
+        "updated_at": "2023-08-27T13:29:48.411Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed9ca432-f04f-4571-b491-d513fdc50ec9",
+        "name": "Data Center Optimization",
+        "description": "Optimizing data center operations for efficiency",
+        "status": "Paused",
+        "created_at": "2023-08-27T15:38:12.054Z",
+        "updated_at": "2023-08-28T01:19:59.315Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "3587958e-982c-4d49-b1c0-c5dc427de92d",
+        "name": "Customer Relationship Management",
+        "description": "Managing customer interactions and sales processes",
+        "status": "Active",
+        "created_at": "2023-08-27T18:40:59.758Z",
+        "updated_at": "2023-08-28T06:03:56.264Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e46de0bc-67c0-4768-a89c-be6f8285f877",
+        "name": "Enterprise Resource Planning",
+        "description": "Integrating and managing core business processes",
+        "status": "Inactive",
+        "created_at": "2023-08-27T13:39:05.198Z",
+        "updated_at": "2023-08-27T16:24:22.466Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aec531ce-26e2-40e9-8300-f79f254d2653",
+        "name": "Project Management Software",
+        "description": "Planning, tracking, and collaborating on projects",
+        "status": "Under Development",
+        "created_at": "2023-08-27T07:46:55.685Z",
+        "updated_at": "2023-08-28T00:29:24.066Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f171802-0057-40be-87ce-c862f1ec3612",
+        "name": "Inventory Management System",
+        "description": "Tracking and managing inventory levels and orders",
+        "status": "Live",
+        "created_at": "2023-08-27T10:16:05.808Z",
+        "updated_at": "2023-08-27T19:37:43.345Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "810abf02-b344-4870-a4a4-50a28462a36d",
+        "name": "Human Resource Management",
+        "description": "Managing employee information and HR processes",
+        "status": "Deprecated",
+        "created_at": "2023-08-27T07:47:11.692Z",
+        "updated_at": "2023-08-27T13:57:51.686Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ebe3e11c-7609-45ac-aee9-b1480fa04471",
+        "email": "Antonia45@hotmail.com",
+        "firstName": "Tyler",
+        "lastName": "Conroy-Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99719139",
+        "tenantId": null
+      },
+      {
+        "reference": "48e36693-2306-462f-8612-246e7f3b8207",
+        "email": "Dell_Balistreri74@yahoo.com",
+        "firstName": "Hilbert",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84024853",
+        "tenantId": null
+      },
+      {
+        "reference": "777a58f0-6c8c-499e-b373-eae9ac6a211a",
+        "email": "Wilton97@gmail.com",
+        "firstName": "Arianna",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9cfb45be-883e-48b9-abc8-d41e3e88f7c2",
+        "email": "Pietro_Douglas43@gmail.com",
+        "firstName": "Hallie",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/720.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9998469-e6ce-4c71-ac1b-6230dc0883f8",
+        "email": "Marguerite.Stanton9@gmail.com",
+        "firstName": "Bertha",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/459.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "81876bdc-1636-4c61-b289-e4dd614749a7",
+        "name": "Analysis 1",
+        "description": "Security Analysis A",
+        "status": "In Progress",
+        "created_at": "2023-08-28T01:22:38.911Z",
+        "updated_at": "2023-08-27T13:52:18.965Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a02883e-aab5-4a60-831d-005b98578de7",
+        "name": "Analysis 2",
+        "description": "Security Analysis B",
+        "status": "Completed",
+        "created_at": "2023-08-27T12:24:06.080Z",
+        "updated_at": "2023-08-27T21:33:15.924Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49d347c9-15ba-4af8-9c0e-fd14f7c9d833",
+        "name": "Analysis 3",
+        "description": "Security Analysis C",
+        "status": "Pending",
+        "created_at": "2023-08-28T03:57:19.751Z",
+        "updated_at": "2023-08-27T07:49:18.674Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30c9378a-f3c7-4521-bb43-51da38498226",
+        "name": "Analysis 4",
+        "description": "Security Analysis D",
+        "status": "On Hold",
+        "created_at": "2023-08-27T16:27:27.386Z",
+        "updated_at": "2023-08-27T07:58:30.489Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "670fed6d-42f1-4c29-83d3-779097e8872c",
+        "name": "Analysis 5",
+        "description": "Security Analysis E",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T11:24:40.407Z",
+        "updated_at": "2023-08-28T03:55:10.250Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "95293088-7fbb-47f3-a696-fc8050da6f3b",
+        "name": "Log Analysis 1",
+        "description": "Log Analysis A",
+        "status": "In Progress",
+        "created_at": "2023-08-27T07:54:08.332Z",
+        "updated_at": "2023-08-27T15:19:37.320Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51b93d17-8407-4294-ba9c-8200f4d318b0",
+        "name": "Log Analysis 2",
+        "description": "Log Analysis B",
+        "status": "Completed",
+        "created_at": "2023-08-28T06:58:08.361Z",
+        "updated_at": "2023-08-27T08:59:19.016Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63b42391-bfd8-4c01-ae80-b25d864ea367",
+        "name": "Log Analysis 3",
+        "description": "Log Analysis C",
+        "status": "Pending",
+        "created_at": "2023-08-27T19:31:59.626Z",
+        "updated_at": "2023-08-27T19:52:58.441Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97e4c610-d6b2-4662-8817-5b231ef2166f",
+        "name": "Log Analysis 4",
+        "description": "Log Analysis D",
+        "status": "On Hold",
+        "created_at": "2023-08-27T18:31:18.385Z",
+        "updated_at": "2023-08-27T14:08:45.818Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d28bf4f-63db-490e-bbc1-e6f9e6a6921a",
+        "name": "Log Analysis 5",
+        "description": "Log Analysis E",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T14:03:09.485Z",
+        "updated_at": "2023-08-27T20:14:01.881Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "003962f0-3469-4b60-a0a9-60065834c412",
+        "name": "Landscape Analysis 1",
+        "description": "Landscape Analysis A",
+        "status": "In Progress",
+        "created_at": "2023-08-27T07:56:36.777Z",
+        "updated_at": "2023-08-27T19:01:43.933Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a473d3b-6563-4e4d-8eeb-0c6863b6fe5f",
+        "name": "Landscape Analysis 2",
+        "description": "Landscape Analysis B",
+        "status": "Completed",
+        "created_at": "2023-08-27T14:05:22.392Z",
+        "updated_at": "2023-08-28T07:06:49.761Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2e45fc-3a0b-48ca-843d-dc3131e57449",
+        "name": "Landscape Analysis 3",
+        "description": "Landscape Analysis C",
+        "status": "Pending",
+        "created_at": "2023-08-28T02:29:02.893Z",
+        "updated_at": "2023-08-28T03:33:01.524Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5827a62-b041-46fa-aaeb-6bfa34515466",
+        "name": "Landscape Analysis 4",
+        "description": "Landscape Analysis D",
+        "status": "On Hold",
+        "created_at": "2023-08-27T15:46:38.481Z",
+        "updated_at": "2023-08-28T02:52:20.992Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "370bbd27-ccd4-4ac2-9e2e-3a2ab45f8c98",
+        "name": "Landscape Analysis 5",
+        "description": "Landscape Analysis E",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T19:54:39.720Z",
+        "updated_at": "2023-08-27T08:41:32.556Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "61d04e73-6f85-4782-8a0f-366e1fed4911",
+        "name": "Application 1",
+        "description": "Business Application A",
+        "status": "Active",
+        "created_at": "2023-08-27T15:20:16.129Z",
+        "updated_at": "2023-08-28T06:17:58.226Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcb2ce6d-45c7-49b4-bb07-2bd3a021bb57",
+        "name": "Application 2",
+        "description": "Business Application B",
+        "status": "Inactive",
+        "created_at": "2023-08-27T20:48:35.403Z",
+        "updated_at": "2023-08-27T07:55:13.509Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "559a53c8-c0cc-4949-8c02-f7f45507e400",
+        "name": "Application 3",
+        "description": "Business Application C",
+        "status": "Pending",
+        "created_at": "2023-08-27T08:18:39.469Z",
+        "updated_at": "2023-08-27T09:53:15.705Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "480df2aa-3a3e-40b6-90a8-4720897de8a2",
+        "name": "Application 4",
+        "description": "Business Application D",
+        "status": "Approved",
+        "created_at": "2023-08-27T10:08:53.595Z",
+        "updated_at": "2023-08-27T16:09:22.741Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1aec338-bf8a-416f-b973-92386e1c5156",
+        "name": "Application 5",
+        "description": "Business Application E",
+        "status": "Rejected",
+        "created_at": "2023-08-27T07:46:20.059Z",
+        "updated_at": "2023-08-28T05:25:12.556Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fce87f62-6f78-41a4-95d5-9f48ad4330d2",
+        "email": "Raymond.Aufderhar@hotmail.com",
+        "firstName": "Reta",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1066.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a45931bb-9305-4f59-ad97-78a2e6298f21",
+        "email": "Jaylin.Bergstrom92@yahoo.com",
+        "firstName": "Shayna",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29558326",
+        "tenantId": null
+      },
+      {
+        "reference": "c109fc03-ad1f-4ddb-9804-37cd0034dd04",
+        "email": "Ismael_Hartmann89@hotmail.com",
+        "firstName": "Garnett",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13911113",
+        "tenantId": null
+      },
+      {
+        "reference": "f79bb665-f71e-4cbe-82e4-869e46bbfbbd",
+        "email": "Darrion.Champlin@hotmail.com",
+        "firstName": "Arden",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/597574",
+        "tenantId": null
+      },
+      {
+        "reference": "80d43654-1b81-4020-b8b9-c93a2a0794ef",
+        "email": "Peyton.Kozey-Bogisich@yahoo.com",
+        "firstName": "Leonardo",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40132195",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "7ac445dd-a8bf-4cf3-8398-b2c73dac96be",
+        "name": "Website Security Assessment",
+        "description": "Comprehensive analysis of website security vulnerabilities",
+        "status": "In Progress",
+        "created_at": "2023-08-28T02:30:27.224Z",
+        "updated_at": "2023-08-27T20:19:16.118Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "138e182f-6806-4c43-8e1a-cc5b4e5f5dab",
+        "name": "Network Vulnerability Scan",
+        "description": "Identification of network vulnerabilities and recommended mitigation strategies",
+        "status": "Completed",
+        "created_at": "2023-08-28T03:08:10.651Z",
+        "updated_at": "2023-08-27T11:34:17.520Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4059f200-e688-4285-af29-6c13a8b294c2",
+        "name": "Penetration Testing",
+        "description": "In-depth testing to identify system weaknesses and potential exploits",
+        "status": "Pending Review",
+        "created_at": "2023-08-27T17:00:10.077Z",
+        "updated_at": "2023-08-27T19:11:44.788Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d4bd248-b515-4dbb-8aef-d75932754811",
+        "name": "Mobile Application Security Audit",
+        "description": "Evaluation of mobile app security controls and data protection measures",
+        "status": "On Hold",
+        "created_at": "2023-08-27T07:48:56.927Z",
+        "updated_at": "2023-08-27T23:47:44.140Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17d4a67e-b53d-49f7-9fcb-d97c8dcda77f",
+        "name": "Cloud Infrastructure Review",
+        "description": "Assessment of cloud infrastructure security controls and best practices",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T05:55:05.592Z",
+        "updated_at": "2023-08-27T09:47:37.463Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "78ac4764-daf9-44cf-97ad-e2e52d1ece2c",
+        "name": "Log File Analysis",
+        "description": "Examination of log files to identify patterns and anomalies",
+        "status": "Active",
+        "created_at": "2023-08-27T19:46:04.290Z",
+        "updated_at": "2023-08-28T07:08:00.074Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba854592-870f-4e3f-a575-d8b70939273d",
+        "name": "Event Log Monitoring",
+        "description": "Real-time monitoring of event logs for security incidents",
+        "status": "Inactive",
+        "created_at": "2023-08-27T12:02:15.404Z",
+        "updated_at": "2023-08-28T06:24:35.059Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba8e25fb-23fd-41f9-9bdd-c16e83084073",
+        "name": "Log Data Visualization",
+        "description": "Visualization of log data for easier analysis and understanding",
+        "status": "Paused",
+        "created_at": "2023-08-27T15:38:50.287Z",
+        "updated_at": "2023-08-27T20:50:09.894Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e476cb1e-e2ab-418a-af10-2d9bbde787f7",
+        "name": "Log File Parsing",
+        "description": "Parsing of log files to extract relevant information",
+        "status": "Error",
+        "created_at": "2023-08-28T07:16:45.652Z",
+        "updated_at": "2023-08-27T15:23:51.091Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8204f874-2642-4d7c-9305-7f4cdf034b20",
+        "name": "Log Anomaly Detection",
+        "description": "Detection of abnormal log patterns indicating potential security breaches",
+        "status": "Completed",
+        "created_at": "2023-08-28T02:49:18.615Z",
+        "updated_at": "2023-08-27T16:19:10.918Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "a692b29e-5fec-40c1-825f-03ce924c0f5b",
+        "name": "Infrastructure Landscape Assessment",
+        "description": "Evaluation of existing infrastructure landscape and recommendations for improvements",
+        "status": "Not Started",
+        "created_at": "2023-08-28T07:17:31.572Z",
+        "updated_at": "2023-08-28T02:36:50.446Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ba112fc-9f66-478e-9c05-7732f631bab9",
+        "name": "Cloud Migration Analysis",
+        "description": "Analysis of cloud migration readiness and cost estimation",
+        "status": "In Progress",
+        "created_at": "2023-08-27T16:49:48.858Z",
+        "updated_at": "2023-08-27T10:46:46.111Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bad9ce8-e812-4d06-b2a0-30474ad19ca2",
+        "name": "Network Topology Mapping",
+        "description": "Mapping of network topology for better understanding of system connectivity",
+        "status": "Delayed",
+        "created_at": "2023-08-28T02:00:33.510Z",
+        "updated_at": "2023-08-27T09:29:04.183Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ef424a2-2c9c-4b70-a9d5-f4fd69670e23",
+        "name": "Technology Stack Evaluation",
+        "description": "Evaluation of technology stack for efficiency and compatibility",
+        "status": "Completed",
+        "created_at": "2023-08-27T12:36:43.555Z",
+        "updated_at": "2023-08-27T10:16:42.432Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58d81e8c-9ecf-4395-99db-1dbdb254231d",
+        "name": "System Architecture Review",
+        "description": "Review of system architecture for scalability and performance",
+        "status": "On Hold",
+        "created_at": "2023-08-27T13:09:01.201Z",
+        "updated_at": "2023-08-27T18:52:22.913Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "214f50b8-f673-4d20-ab55-47a5cd1ba4a8",
+        "name": "CRM System",
+        "description": "Customer relationship management system for effective sales and marketing",
+        "status": "Active",
+        "created_at": "2023-08-28T04:11:12.830Z",
+        "updated_at": "2023-08-27T13:52:21.254Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2905a99-d5dd-44dd-85ac-f9d332f3a079",
+        "name": "Inventory Management Software",
+        "description": "Software for managing inventory and tracking stock levels",
+        "status": "Inactive",
+        "created_at": "2023-08-28T04:07:16.337Z",
+        "updated_at": "2023-08-28T00:47:05.364Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac3a2c49-68ec-40f8-ad95-a5c569348206",
+        "name": "Project Management Tool",
+        "description": "Tool for planning, organizing, and managing projects",
+        "status": "Testing",
+        "created_at": "2023-08-27T23:16:15.470Z",
+        "updated_at": "2023-08-28T03:55:31.732Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a815260a-b1d5-4980-b97b-3b58e3b6698f",
+        "name": "E-commerce Platform",
+        "description": "Platform for online buying and selling of products and services",
+        "status": "Development",
+        "created_at": "2023-08-27T14:16:23.756Z",
+        "updated_at": "2023-08-27T17:55:13.607Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb27f742-2ce2-49db-83a6-04b5fc917efc",
+        "name": "Human Resources Management System",
+        "description": "System for managing employee information and HR processes",
+        "status": "Production",
+        "created_at": "2023-08-28T00:00:42.892Z",
+        "updated_at": "2023-08-28T02:06:12.666Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5de22c3b-011c-4664-86ec-bc8a5c39a16e",
+        "email": "Marge41@yahoo.com",
+        "firstName": "Francis",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/407.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72127fa9-b2f5-4f07-92f3-b23abd9aaf82",
+        "email": "Judy_McCullough8@gmail.com",
+        "firstName": "Ethan",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1195.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85be982f-f95e-4e39-a794-9c97ff27b225",
+        "email": "Forrest_Ebert@gmail.com",
+        "firstName": "Wilmer",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/851.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47d8f7a9-f8dc-41bf-a084-635ba5ed717c",
+        "email": "Vella80@hotmail.com",
+        "firstName": "Adam",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95846786",
+        "tenantId": null
+      },
+      {
+        "reference": "917ba3ca-08cf-49d3-9c58-438f12a72373",
+        "email": "Katharina32@gmail.com",
+        "firstName": "Ashtyn",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15385001",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "754da124-46ae-47e2-819f-d3a8a7bcb4fd",
+        "name": "Network Security Assessment",
+        "description": "Identify and mitigate network vulnerabilities",
+        "status": "In Progress",
+        "created_at": "2023-08-28T07:20:38.978Z",
+        "updated_at": "2023-08-28T04:42:22.802Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40445d40-5b16-46d0-b1a4-83e4c9e05ac8",
+        "name": "Vulnerability Scan",
+        "description": "Assess and enhance system security measures",
+        "status": "Completed",
+        "created_at": "2023-08-27T21:34:36.269Z",
+        "updated_at": "2023-08-27T07:53:59.708Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "306e6dd0-84e5-4f4f-b5c0-522f5980b370",
+        "name": "Penetration Testing",
+        "description": "Evaluate and improve application security",
+        "status": "Pending Review",
+        "created_at": "2023-08-28T03:35:24.174Z",
+        "updated_at": "2023-08-27T19:01:36.333Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de4c65b2-45fd-47c8-b9cc-ef956a88a29f",
+        "name": "Security Audit",
+        "description": "Conduct comprehensive security assessments",
+        "status": "On Hold",
+        "created_at": "2023-08-27T22:03:38.156Z",
+        "updated_at": "2023-08-27T16:39:42.753Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a932fab-b970-43f6-bfdb-3a002a1de124",
+        "name": "Threat Intelligence Analysis",
+        "description": "Analyze and respond to emerging threats",
+        "status": "Scheduled",
+        "created_at": "2023-08-27T10:51:02.198Z",
+        "updated_at": "2023-08-27T12:01:25.363Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "d286ccb6-c561-455c-8462-cf766c45cb1c",
+        "name": "Log File Analysis",
+        "description": "Extract valuable insights from log files",
+        "status": "Active",
+        "created_at": "2023-08-28T02:19:13.905Z",
+        "updated_at": "2023-08-27T21:41:23.028Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fb6b84e-cd66-4608-89aa-ba8514851b25",
+        "name": "Event Log Monitoring",
+        "description": "Monitor and analyze system event logs",
+        "status": "Inactive",
+        "created_at": "2023-08-27T22:15:18.890Z",
+        "updated_at": "2023-08-27T08:39:48.923Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80699054-32e0-4a91-a80d-15698a8a5d08",
+        "name": "Log Data Visualization",
+        "description": "Visualize log data for better understanding",
+        "status": "Paused",
+        "created_at": "2023-08-27T10:15:54.417Z",
+        "updated_at": "2023-08-28T04:50:10.430Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f13503-a2c2-45fd-833e-18421d57e84b",
+        "name": "Log File Parsing",
+        "description": "Parse and extract information from log files",
+        "status": "Error",
+        "created_at": "2023-08-28T02:23:58.682Z",
+        "updated_at": "2023-08-28T03:35:26.295Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32bb6d73-e872-4181-a730-b2f98c92786c",
+        "name": "Log Analysis Dashboard",
+        "description": "View and analyze log data through a user-friendly dashboard",
+        "status": "Running",
+        "created_at": "2023-08-28T03:11:59.920Z",
+        "updated_at": "2023-08-28T06:08:19.979Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "e46a64de-7dd8-47f0-ada4-f35849698f3a",
+        "name": "Infrastructure Assessment",
+        "description": "Assess and optimize infrastructure components",
+        "status": "On Track",
+        "created_at": "2023-08-28T02:54:33.521Z",
+        "updated_at": "2023-08-28T03:55:47.733Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "746e0c63-8fbc-4d36-8594-2c6dd1735b45",
+        "name": "Cloud Readiness Analysis",
+        "description": "Evaluate readiness for cloud migration",
+        "status": "Behind Schedule",
+        "created_at": "2023-08-28T00:17:05.072Z",
+        "updated_at": "2023-08-27T11:54:14.420Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74b11f6d-170b-4ba6-b28c-e2acf8765ee1",
+        "name": "IT Environment Evaluation",
+        "description": "Analyze and optimize IT environment",
+        "status": "Completed",
+        "created_at": "2023-08-27T20:25:24.449Z",
+        "updated_at": "2023-08-27T10:45:36.099Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "222a1d3a-1d6b-4994-a7d6-8508d209ddfa",
+        "name": "Network Architecture Review",
+        "description": "Review and enhance network architecture",
+        "status": "Delayed",
+        "created_at": "2023-08-27T09:28:54.052Z",
+        "updated_at": "2023-08-27T11:33:44.836Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6246e845-8a4e-46a4-83ee-d856e6bdccae",
+        "name": "Technology Landscape Mapping",
+        "description": "Map and understand technology landscape",
+        "status": "In Planning",
+        "created_at": "2023-08-27T18:12:02.026Z",
+        "updated_at": "2023-08-28T05:10:00.498Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "629e9ec8-a42b-46df-9d6e-b56073f04d0c",
+        "name": "CRM System",
+        "description": "Manage customer relationships effectively",
+        "status": "Active",
+        "created_at": "2023-08-27T13:11:09.324Z",
+        "updated_at": "2023-08-28T06:54:24.425Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07187b08-a493-4fa5-9a0e-2a0b29c0b0f3",
+        "name": "Inventory Management Software",
+        "description": "Streamline inventory management processes",
+        "status": "Inactive",
+        "created_at": "2023-08-27T22:50:47.476Z",
+        "updated_at": "2023-08-27T14:23:21.325Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70c96959-85c0-40ae-bf90-b27398fde641",
+        "name": "Project Management Tool",
+        "description": "Facilitate project planning and collaboration",
+        "status": "In Development",
+        "created_at": "2023-08-28T05:33:28.771Z",
+        "updated_at": "2023-08-27T21:22:17.378Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4c684c9-f0c7-41e8-ab4a-a67b75dd0acd",
+        "name": "E-commerce Platform",
+        "description": "Enable online selling and transactions",
+        "status": "Live",
+        "created_at": "2023-08-27T14:22:14.208Z",
+        "updated_at": "2023-08-28T03:00:02.676Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dae3fae2-660e-4932-995a-7cc681b95e3a",
+        "name": "HR Management System",
+        "description": "Automate HR-related tasks and processes",
+        "status": "Testing",
+        "created_at": "2023-08-27T20:30:17.130Z",
+        "updated_at": "2023-08-28T06:01:53.556Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "40bf419f-de2e-4826-98de-36637de787e6",
+        "email": "Yvonne54@gmail.com",
+        "firstName": "Samanta",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43256761",
+        "tenantId": null
+      },
+      {
+        "reference": "18800bbe-15f1-4f9b-80c0-e229ea77d2d0",
+        "email": "Dominique15@gmail.com",
+        "firstName": "Toney",
+        "lastName": "Harber-Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62271196",
+        "tenantId": null
+      },
+      {
+        "reference": "2b0d940c-13d4-430a-80b3-72b361cb24cb",
+        "email": "Kara84@gmail.com",
+        "firstName": "Dorthy",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/389.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0269f7c-a0e7-4679-88e2-fd5b45ce97d0",
+        "email": "Louisa_Crist@gmail.com",
+        "firstName": "Corrine",
+        "lastName": "Gusikowski-Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/742.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "345f1e08-2b48-4ef8-8421-423736d64e11",
+        "email": "Hobart14@gmail.com",
+        "firstName": "Dorthy",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46874524",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "c63f6130-d566-449b-a8a0-01fe4c22864a",
+        "name": "Network Security Audit",
+        "description": "Identify and mitigate network vulnerabilities",
+        "status": "In Progress",
+        "created_at": "2023-08-27T18:45:54.631Z",
+        "updated_at": "2023-08-27T11:37:29.491Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3c73897-f79a-4269-9d45-ab3438cc5766",
+        "name": "Vulnerability Assessment",
+        "description": "Assess and prioritize security risks",
+        "status": "Completed",
+        "created_at": "2023-08-27T12:38:13.821Z",
+        "updated_at": "2023-08-27T11:44:16.332Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eec8b82-8d13-406d-a476-8d6d9d84da95",
+        "name": "Penetration Testing",
+        "description": "Simulate real-world attacks to identify weaknesses",
+        "status": "Pending Approval",
+        "created_at": "2023-08-28T03:00:44.758Z",
+        "updated_at": "2023-08-27T22:16:32.734Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e172a3f-3d4a-4cdf-aeea-5c30d4482b8e",
+        "name": "Security Incident Response",
+        "description": "Respond to and investigate security incidents",
+        "status": "On Hold",
+        "created_at": "2023-08-27T12:33:03.354Z",
+        "updated_at": "2023-08-27T23:59:33.247Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bd2bd39-b71b-48aa-95df-e57f36dddb76",
+        "name": "Security Policy Review",
+        "description": "Review and update security policies",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T22:59:11.480Z",
+        "updated_at": "2023-08-27T17:49:58.726Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "be746efd-6b93-40f7-a340-196d4b91b08b",
+        "name": "Log File Analysis",
+        "description": "Analyze logs for system performance and errors",
+        "status": "Active",
+        "created_at": "2023-08-27T09:45:48.436Z",
+        "updated_at": "2023-08-27T11:00:50.181Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2b5e82b-454b-4223-bd58-3a7b49da8d6d",
+        "name": "Log Monitoring",
+        "description": "Monitor logs in real-time for security incidents",
+        "status": "Inactive",
+        "created_at": "2023-08-27T21:43:13.264Z",
+        "updated_at": "2023-08-27T15:15:05.423Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20e3b4ce-0565-49bc-9dcd-eac4d6910efb",
+        "name": "Log Aggregation",
+        "description": "Aggregate logs from multiple sources for centralized analysis",
+        "status": "Paused",
+        "created_at": "2023-08-27T11:47:06.737Z",
+        "updated_at": "2023-08-28T01:26:29.747Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89fb90b9-4603-4092-8e23-b30f1c310714",
+        "name": "Log Correlation",
+        "description": "Correlate logs to identify patterns and anomalies",
+        "status": "Error",
+        "created_at": "2023-08-28T05:27:02.591Z",
+        "updated_at": "2023-08-27T22:51:58.345Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01a0ccbc-8cf5-4c1a-98df-91910b2fb4d8",
+        "name": "Log Retention",
+        "description": "Retain logs for compliance and forensic purposes",
+        "status": "Completed",
+        "created_at": "2023-08-27T10:46:30.794Z",
+        "updated_at": "2023-08-27T14:35:24.215Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "e3ff4cc3-7fdc-4426-b050-7de6c097ccdc",
+        "name": "Market Landscape Analysis",
+        "description": "Analyze market trends and dynamics",
+        "status": "Ongoing",
+        "created_at": "2023-08-27T23:11:47.696Z",
+        "updated_at": "2023-08-27T07:39:51.056Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65ef2d9a-6050-4511-b8a8-67ab9c918a80",
+        "name": "Competitor Landscape Analysis",
+        "description": "Assess competitor strategies and market positioning",
+        "status": "Upcoming",
+        "created_at": "2023-08-27T23:55:02.758Z",
+        "updated_at": "2023-08-27T18:18:17.030Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17751f3e-4042-4fbc-92bb-a9b8d2c5a7df",
+        "name": "Technology Landscape Analysis",
+        "description": "Evaluate emerging technologies and their impact",
+        "status": "Delayed",
+        "created_at": "2023-08-27T19:28:25.187Z",
+        "updated_at": "2023-08-27T14:53:03.209Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f7f9b1c-1757-4ca2-8757-ed7264fcc568",
+        "name": "Industry Landscape Analysis",
+        "description": "Study industry regulations and policies",
+        "status": "Completed",
+        "created_at": "2023-08-28T01:42:35.419Z",
+        "updated_at": "2023-08-27T15:52:58.221Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b07ce46e-c2a6-424c-9b73-0ccdd881a341",
+        "name": "Customer Landscape Analysis",
+        "description": "Analyze customer behavior and preferences",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T09:37:25.588Z",
+        "updated_at": "2023-08-27T08:46:56.068Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "60ab7e3c-1fd8-4c34-b09a-4e883bee5379",
+        "name": "CRM System",
+        "description": "Manage customer relationships and sales processes",
+        "status": "Active",
+        "created_at": "2023-08-27T14:18:48.901Z",
+        "updated_at": "2023-08-28T01:05:46.391Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "752ed923-3221-413e-8a75-218dbc8f5536",
+        "name": "Inventory Management System",
+        "description": "Track and control inventory levels and orders",
+        "status": "Inactive",
+        "created_at": "2023-08-27T10:10:56.055Z",
+        "updated_at": "2023-08-27T13:43:01.699Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c13e7975-b1ce-40fe-8ab1-5ab1cf169f6c",
+        "name": "Project Management Software",
+        "description": "Plan and execute projects with tasks and milestones",
+        "status": "Under Development",
+        "created_at": "2023-08-28T03:25:14.119Z",
+        "updated_at": "2023-08-27T20:27:17.894Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6312836-ac29-4be1-a902-cc134f50ae9b",
+        "name": "E-commerce Platform",
+        "description": "Facilitate online buying and selling of products",
+        "status": "Live",
+        "created_at": "2023-08-27T16:52:41.991Z",
+        "updated_at": "2023-08-27T20:48:52.058Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6687d49d-4836-4fb2-8fdf-84d9699314f3",
+        "name": "Human Resources Information System",
+        "description": "Store and manage employee data and HR processes",
+        "status": "Retired",
+        "created_at": "2023-08-27T11:07:53.477Z",
+        "updated_at": "2023-08-28T05:57:01.142Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a07a465-7ac0-41fe-a928-3341792a8f51",
+        "email": "Gus.Rippin@yahoo.com",
+        "firstName": "Foster",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9043708",
+        "tenantId": null
+      },
+      {
+        "reference": "e9bd180c-6204-40a8-9e05-95e6baa12370",
+        "email": "Deondre20@yahoo.com",
+        "firstName": "Carmel",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39555323",
+        "tenantId": null
+      },
+      {
+        "reference": "a3f68ead-e919-42f0-9ec6-e764bf013986",
+        "email": "Irwin_Volkman@yahoo.com",
+        "firstName": "Brianne",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/947.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e0b8d99-6516-4222-a3cf-18024e8137fc",
+        "email": "Kristopher.Abernathy40@gmail.com",
+        "firstName": "Cristopher",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1203.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a3503d0-810e-45ea-95d4-7f83d2f0dbf9",
+        "email": "Jazmyne39@gmail.com",
+        "firstName": "Judge",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46396905",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "26bd1b99-f874-4daf-958d-59c2bb2e6830",
+        "name": "Network Security Audit",
+        "description": "Comprehensive analysis of network security measures",
+        "status": "In Progress",
+        "created_at": "2023-08-27T16:27:07.550Z",
+        "updated_at": "2023-08-27T11:01:39.431Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1253591a-f7eb-4ae2-bb42-b72d2428796d",
+        "name": "Vulnerability Assessment",
+        "description": "Identifying vulnerabilities and recommending solutions",
+        "status": "Completed",
+        "created_at": "2023-08-28T04:56:48.818Z",
+        "updated_at": "2023-08-27T20:21:38.596Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d714fb2-7be6-48d7-8f96-5af45b228ae3",
+        "name": "Penetration Testing",
+        "description": "Simulating attacks to identify system weaknesses",
+        "status": "Pending Review",
+        "created_at": "2023-08-27T12:36:20.693Z",
+        "updated_at": "2023-08-27T09:59:03.537Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c03e304c-fa67-4d4b-8626-03575eb493af",
+        "name": "Security Incident Response",
+        "description": "Responding to security incidents and mitigating risks",
+        "status": "On Hold",
+        "created_at": "2023-08-27T10:05:07.263Z",
+        "updated_at": "2023-08-28T06:50:46.072Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a978560-6a3e-45b5-974a-c3c6156e184d",
+        "name": "Threat Intelligence Analysis",
+        "description": "Analyzing and interpreting threat intelligence data",
+        "status": "Scheduled",
+        "created_at": "2023-08-27T10:13:24.862Z",
+        "updated_at": "2023-08-27T20:11:22.557Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "62dfd82f-63b4-4f8b-bbef-4fa483f352aa",
+        "name": "Server Log Analysis",
+        "description": "Analyzing server logs for performance optimization",
+        "status": "In Progress",
+        "created_at": "2023-08-27T12:51:12.306Z",
+        "updated_at": "2023-08-27T13:49:08.586Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96dbca74-bbee-4bfd-897c-a400865c3db2",
+        "name": "Application Log Analysis",
+        "description": "Analyzing application logs for debugging purposes",
+        "status": "Completed",
+        "created_at": "2023-08-27T14:37:21.932Z",
+        "updated_at": "2023-08-27T09:22:53.499Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee0e2e0c-0381-41cb-854f-3a7619b5c49b",
+        "name": "Database Log Analysis",
+        "description": "Analyzing database logs for query optimization",
+        "status": "Pending Review",
+        "created_at": "2023-08-28T00:49:13.840Z",
+        "updated_at": "2023-08-28T05:53:41.333Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80e4c407-c2fa-4257-9fc7-1ae5aa73d9ed",
+        "name": "Network Log Analysis",
+        "description": "Analyzing network logs for security incidents",
+        "status": "On Hold",
+        "created_at": "2023-08-28T04:36:38.303Z",
+        "updated_at": "2023-08-28T03:57:29.363Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a00c9a3b-9cd1-4be5-a4db-8f6d3de944b7",
+        "name": "Firewall Log Analysis",
+        "description": "Analyzing firewall logs for rule evaluation",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T01:23:56.023Z",
+        "updated_at": "2023-08-28T06:37:31.669Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "e371aaa5-2765-4b57-b622-0395d5fcd291",
+        "name": "Infrastructure Landscape Analysis",
+        "description": "Analyzing infrastructure components and dependencies",
+        "status": "In Progress",
+        "created_at": "2023-08-27T07:51:20.620Z",
+        "updated_at": "2023-08-28T07:31:13.045Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f655e59-a9a3-4acb-b0a7-01a18e21a188",
+        "name": "Cloud Landscape Analysis",
+        "description": "Analyzing cloud architecture and resource allocation",
+        "status": "Completed",
+        "created_at": "2023-08-27T13:13:47.858Z",
+        "updated_at": "2023-08-27T17:23:41.581Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5494dc7-cd1a-4930-91e8-80ba3b35562f",
+        "name": "Network Landscape Analysis",
+        "description": "Analyzing network topology and connectivity",
+        "status": "Pending Review",
+        "created_at": "2023-08-27T17:51:52.795Z",
+        "updated_at": "2023-08-27T15:07:07.492Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed7496a8-e398-4ee0-99d5-4236e2972dc5",
+        "name": "Data Center Landscape Analysis",
+        "description": "Analyzing data center infrastructure and capacity",
+        "status": "On Hold",
+        "created_at": "2023-08-27T18:03:03.557Z",
+        "updated_at": "2023-08-28T03:18:07.142Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04d30d0f-21a9-4903-9e9c-5b81d225a0f3",
+        "name": "Application Landscape Analysis",
+        "description": "Analyzing application landscape and integration points",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T01:05:06.365Z",
+        "updated_at": "2023-08-27T19:54:52.379Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "ed884003-7914-42ee-8574-3d0f8ab55ee7",
+        "name": "CRM System",
+        "description": "Managing customer relationships and sales processes",
+        "status": "In Progress",
+        "created_at": "2023-08-27T12:49:38.017Z",
+        "updated_at": "2023-08-27T16:55:42.299Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d848026c-df2c-4c81-b4d0-e4fd27e345fd",
+        "name": "Inventory Management System",
+        "description": "Managing inventory levels and supply chain operations",
+        "status": "Completed",
+        "created_at": "2023-08-27T07:51:31.831Z",
+        "updated_at": "2023-08-27T13:12:32.396Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bfdd0e3-fad4-4cbc-b7d0-68a8cd03c54a",
+        "name": "Financial Reporting System",
+        "description": "Generating financial reports and analyzing financial data",
+        "status": "Pending Review",
+        "created_at": "2023-08-28T01:26:14.796Z",
+        "updated_at": "2023-08-27T18:15:12.126Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "710aca53-7472-4546-85d4-ea1f24ab0ae8",
+        "name": "Project Management System",
+        "description": "Managing projects, tasks, and resources",
+        "status": "On Hold",
+        "created_at": "2023-08-28T05:18:08.416Z",
+        "updated_at": "2023-08-28T04:11:16.936Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c493606c-4be1-4f14-98d8-dcb66749ca6a",
+        "name": "HR Management System",
+        "description": "Managing employee information and HR processes",
+        "status": "Scheduled",
+        "created_at": "2023-08-27T11:05:29.210Z",
+        "updated_at": "2023-08-28T01:19:32.530Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cbb7711b-3ba5-4ac8-8ccf-d072370f2e93",
+        "email": "Stuart79@yahoo.com",
+        "firstName": "Lexus",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45236655",
+        "tenantId": null
+      },
+      {
+        "reference": "ae96974e-9999-44de-bfcf-2ce96ccee80a",
+        "email": "Antonetta.Ankunding@yahoo.com",
+        "firstName": "Garret",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/397.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "095b7209-adb2-4f9c-824f-9b9127c709c9",
+        "email": "John_Homenick@hotmail.com",
+        "firstName": "Deven",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48062215",
+        "tenantId": null
+      },
+      {
+        "reference": "d4ebe01a-96b3-474c-8c39-bb0ad1fe543e",
+        "email": "Adele.Weimann97@gmail.com",
+        "firstName": "Emelia",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69123521",
+        "tenantId": null
+      },
+      {
+        "reference": "6a3a4f6b-df14-413c-91eb-813321899f27",
+        "email": "Cyril93@hotmail.com",
+        "firstName": "Levi",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37147862",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "ae2dcaf5-5ab2-4aa5-9420-e89cc8836a81",
+        "name": "Network Security Assessment",
+        "description": "Identify and mitigate network vulnerabilities",
+        "status": "In Progress",
+        "created_at": "2023-08-27T09:36:45.893Z",
+        "updated_at": "2023-08-28T00:23:30.776Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67f4831c-8569-422d-a6c6-7e884356138f",
+        "name": "Vulnerability Scan",
+        "description": "Scan for potential security weaknesses",
+        "status": "Completed",
+        "created_at": "2023-08-28T05:19:00.204Z",
+        "updated_at": "2023-08-27T20:10:29.899Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44a6ebc8-dfa2-475c-9697-57cc1d483f9b",
+        "name": "Penetration Testing",
+        "description": "Simulate real-world attacks to test system defenses",
+        "status": "Pending Review",
+        "created_at": "2023-08-27T13:17:26.502Z",
+        "updated_at": "2023-08-27T16:17:58.749Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a823c2a-0827-48dc-9d32-3fa34701d0eb",
+        "name": "Security Audit",
+        "description": "Evaluate security controls and policies",
+        "status": "On Hold",
+        "created_at": "2023-08-27T10:03:08.408Z",
+        "updated_at": "2023-08-27T18:53:23.373Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8f47413-c626-4a7f-ac4a-53d8e82b07b1",
+        "name": "Threat Intelligence Analysis",
+        "description": "Analyze and monitor potential threats",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T07:41:06.228Z",
+        "updated_at": "2023-08-28T03:01:29.365Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "da4c3e22-f836-48ee-95f9-be64e9ecf54f",
+        "name": "Application Log Analysis",
+        "description": "Analyze logs generated by applications",
+        "status": "In Progress",
+        "created_at": "2023-08-28T07:24:43.692Z",
+        "updated_at": "2023-08-27T14:39:38.748Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13debd22-e793-4e9c-b7e3-6ebd93f4479e",
+        "name": "System Log Analysis",
+        "description": "Analyze logs generated by the operating system",
+        "status": "Completed",
+        "created_at": "2023-08-27T21:25:43.165Z",
+        "updated_at": "2023-08-27T18:44:36.810Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ce5d6b9-e89a-455e-97da-a125316ec4ef",
+        "name": "Network Log Analysis",
+        "description": "Analyze logs generated by network devices",
+        "status": "Pending Review",
+        "created_at": "2023-08-28T03:06:26.947Z",
+        "updated_at": "2023-08-27T21:42:39.548Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71116343-e58f-4fc4-b909-d155079ef630",
+        "name": "Database Log Analysis",
+        "description": "Analyze logs generated by databases",
+        "status": "On Hold",
+        "created_at": "2023-08-28T00:48:57.232Z",
+        "updated_at": "2023-08-27T14:21:36.200Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "462b803b-7290-404d-878c-dfa71ff84693",
+        "name": "Security Log Analysis",
+        "description": "Analyze logs related to security events",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T17:56:31.507Z",
+        "updated_at": "2023-08-28T05:02:36.546Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "6416e438-2950-4f91-8711-5f45f5af9f45",
+        "name": "Cloud Infrastructure Analysis",
+        "description": "Assess cloud infrastructure for security and performance",
+        "status": "In Progress",
+        "created_at": "2023-08-27T22:00:43.794Z",
+        "updated_at": "2023-08-27T21:57:01.999Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fe4626c-5e82-4d46-a444-c41d16bd7001",
+        "name": "Network Architecture Analysis",
+        "description": "Evaluate network architecture for optimization",
+        "status": "Completed",
+        "created_at": "2023-08-28T04:50:43.406Z",
+        "updated_at": "2023-08-28T06:47:38.762Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb3593e7-52b3-4778-80d1-8d949d405613",
+        "name": "Data Center Analysis",
+        "description": "Analyze data center infrastructure for efficiency",
+        "status": "Pending Review",
+        "created_at": "2023-08-28T01:33:47.324Z",
+        "updated_at": "2023-08-28T06:11:00.482Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da323436-ec91-42ad-901e-dfeb09964707",
+        "name": "Endpoint Analysis",
+        "description": "Assess endpoint devices for vulnerabilities",
+        "status": "On Hold",
+        "created_at": "2023-08-27T17:04:04.251Z",
+        "updated_at": "2023-08-27T13:50:38.622Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "118101ab-29b7-4d73-a844-fa1d7600675c",
+        "name": "Wireless Network Analysis",
+        "description": "Analyze wireless network for coverage and security",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T20:12:06.106Z",
+        "updated_at": "2023-08-27T14:01:52.841Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "82b52748-6239-430a-b9c0-b7441d4aa5d3",
+        "name": "CRM System",
+        "description": "Manage customer relationships and sales",
+        "status": "In Progress",
+        "created_at": "2023-08-27T11:43:00.943Z",
+        "updated_at": "2023-08-27T14:08:10.267Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea0e7048-0668-43a1-b97d-74677047363b",
+        "name": "Inventory Management System",
+        "description": "Track and manage inventory levels",
+        "status": "Completed",
+        "created_at": "2023-08-28T00:55:36.345Z",
+        "updated_at": "2023-08-27T17:34:38.823Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e80ec482-b0d0-4ae0-a72d-fcd6aa4f8511",
+        "name": "Project Management Software",
+        "description": "Plan and track project tasks and milestones",
+        "status": "Pending Review",
+        "created_at": "2023-08-27T12:03:28.347Z",
+        "updated_at": "2023-08-27T13:20:01.671Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d55d3855-3bb6-41ab-93e2-e467e8582979",
+        "name": "E-commerce Platform",
+        "description": "Facilitate online buying and selling",
+        "status": "On Hold",
+        "created_at": "2023-08-27T19:08:44.024Z",
+        "updated_at": "2023-08-27T23:34:13.735Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c167cbbf-ce5c-445d-91ab-36dcfe00332d",
+        "name": "Human Resources Management System",
+        "description": "Manage employee information and HR processes",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T00:54:14.428Z",
+        "updated_at": "2023-08-27T09:18:35.320Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63f7e7f2-af23-453e-8e75-10c41884d799",
+        "email": "Rylan59@yahoo.com",
+        "firstName": "Sharon",
+        "lastName": "Lowe-Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17929926",
+        "tenantId": null
+      },
+      {
+        "reference": "7bbac30c-42c0-4e71-ba0c-fe1098420406",
+        "email": "Jarred.Davis@hotmail.com",
+        "firstName": "Roberto",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26599308",
+        "tenantId": null
+      },
+      {
+        "reference": "be7cfcae-d19e-4c9d-b955-495af527507f",
+        "email": "Ashton48@hotmail.com",
+        "firstName": "Darius",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64898174",
+        "tenantId": null
+      },
+      {
+        "reference": "745cf254-44eb-4237-97c9-7b614f23055b",
+        "email": "Russel.Strosin@yahoo.com",
+        "firstName": "Blaze",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/555.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8a1612d-098a-4569-8f1c-b75a47b4637d",
+        "email": "Keenan.McGlynn4@hotmail.com",
+        "firstName": "Gideon",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43517800",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "cc5fb70a-43dc-4842-8cbf-8b21e9b2d9db",
+        "name": "Security Analysis 1",
+        "description": "Analyzing security vulnerabilities",
+        "status": "Pending",
+        "created_at": "2023-08-27T10:51:58.555Z",
+        "updated_at": "2023-08-27T20:29:25.471Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb0d3adc-92f4-46bc-a0b0-46d9d73ae36a",
+        "name": "Security Analysis 2",
+        "description": "Identifying potential threats",
+        "status": "In Progress",
+        "created_at": "2023-08-27T22:14:53.226Z",
+        "updated_at": "2023-08-27T15:43:09.369Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21b43df9-b0b9-4d52-97a6-a97f5705ca35",
+        "name": "Security Analysis 3",
+        "description": "Assessing risk levels",
+        "status": "Completed",
+        "created_at": "2023-08-27T11:27:30.510Z",
+        "updated_at": "2023-08-27T12:05:29.159Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c348891-e5ae-4c5e-aa10-039c931da8d4",
+        "name": "Security Analysis 4",
+        "description": "Implementing security measures",
+        "status": "On Hold",
+        "created_at": "2023-08-27T09:22:01.887Z",
+        "updated_at": "2023-08-27T21:40:28.340Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be90dc03-3fd8-412e-ac5d-025f48ea9fa1",
+        "name": "Security Analysis 5",
+        "description": "Conducting penetration testing",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T06:30:13.103Z",
+        "updated_at": "2023-08-27T22:12:43.917Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "60ef004f-066c-4605-ad35-1c25fa6e5870",
+        "name": "Log Analysis 1",
+        "description": "Analyzing system logs",
+        "status": "Pending",
+        "created_at": "2023-08-27T10:06:34.574Z",
+        "updated_at": "2023-08-27T22:33:27.710Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ff2f858-1af9-4529-9f14-d1dc74ea20e7",
+        "name": "Log Analysis 2",
+        "description": "Detecting anomalies",
+        "status": "In Progress",
+        "created_at": "2023-08-27T13:58:33.112Z",
+        "updated_at": "2023-08-27T22:32:33.617Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef97bab6-63ba-472e-80ec-60d7b203eeff",
+        "name": "Log Analysis 3",
+        "description": "Investigating errors",
+        "status": "Completed",
+        "created_at": "2023-08-28T06:35:45.399Z",
+        "updated_at": "2023-08-27T19:57:39.858Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edb2ec42-839e-4b50-9aa8-8e8e6c3f55ec",
+        "name": "Log Analysis 4",
+        "description": "Monitoring system performance",
+        "status": "On Hold",
+        "created_at": "2023-08-27T21:03:08.399Z",
+        "updated_at": "2023-08-27T15:07:35.892Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f7cd939-745d-466d-bf8d-2a4f49caec3b",
+        "name": "Log Analysis 5",
+        "description": "Troubleshooting issues",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T03:08:43.064Z",
+        "updated_at": "2023-08-28T06:50:07.584Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "f64ba93f-7ea3-4a0a-8d30-1ae66a52e8ba",
+        "name": "Landscape Analysis 1",
+        "description": "Analyzing market trends",
+        "status": "Pending",
+        "created_at": "2023-08-27T09:13:16.393Z",
+        "updated_at": "2023-08-27T12:16:19.614Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b2e078d-126e-439e-870e-7a0365760d69",
+        "name": "Landscape Analysis 2",
+        "description": "Identifying competitors",
+        "status": "In Progress",
+        "created_at": "2023-08-28T06:10:52.372Z",
+        "updated_at": "2023-08-28T07:26:10.379Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e102a24-feab-4fd4-843a-3d3e38de98d2",
+        "name": "Landscape Analysis 3",
+        "description": "Assessing customer preferences",
+        "status": "Completed",
+        "created_at": "2023-08-27T20:30:00.101Z",
+        "updated_at": "2023-08-27T22:29:04.990Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82d1306a-f4db-4f1b-930b-003c2387185e",
+        "name": "Landscape Analysis 4",
+        "description": "Evaluating industry opportunities",
+        "status": "On Hold",
+        "created_at": "2023-08-28T01:31:33.963Z",
+        "updated_at": "2023-08-28T03:59:22.873Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6f8fe04-4322-4e58-9e64-dc713e9821ea",
+        "name": "Landscape Analysis 5",
+        "description": "Developing growth strategies",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T01:30:19.892Z",
+        "updated_at": "2023-08-27T08:00:29.918Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "f6497fb7-f16f-44f0-baa0-c4512c01b806",
+        "name": "Business Application 1",
+        "description": "Developing custom software solutions",
+        "status": "Pending",
+        "created_at": "2023-08-27T15:58:31.395Z",
+        "updated_at": "2023-08-27T22:44:19.926Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87d8a3c9-a148-479a-b4e4-8c8976d63d62",
+        "name": "Business Application 2",
+        "description": "Streamlining business processes",
+        "status": "In Progress",
+        "created_at": "2023-08-27T08:06:36.503Z",
+        "updated_at": "2023-08-27T20:40:13.077Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f048f62b-b812-4bc0-ac3a-911f9f7c8813",
+        "name": "Business Application 3",
+        "description": "Improving productivity",
+        "status": "Completed",
+        "created_at": "2023-08-27T23:58:29.472Z",
+        "updated_at": "2023-08-27T12:28:55.861Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a63367e-d313-421f-83f2-7dbc8393b0ec",
+        "name": "Business Application 4",
+        "description": "Enhancing customer experience",
+        "status": "On Hold",
+        "created_at": "2023-08-28T03:11:47.411Z",
+        "updated_at": "2023-08-27T16:56:27.531Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b844f833-c07a-440f-a126-f745f1b6945e",
+        "name": "Business Application 5",
+        "description": "Integrating systems",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T08:49:28.341Z",
+        "updated_at": "2023-08-27T07:43:16.329Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "07926e31-12d2-45a6-b745-b9a07a36981c",
+        "email": "Julianne99@hotmail.com",
+        "firstName": "Kaya",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97384484",
+        "tenantId": null
+      },
+      {
+        "reference": "e1e7cb6b-b536-4ec7-9a80-d2cfebcb4747",
+        "email": "Benedict43@yahoo.com",
+        "firstName": "Maia",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86549689",
+        "tenantId": null
+      },
+      {
+        "reference": "4c59e08b-20ff-451c-bd36-ed7a7f9f4d91",
+        "email": "Lottie.Howell79@yahoo.com",
+        "firstName": "Candida",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1203.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0e96dc6-a47a-49b1-b4a7-a0df490526f7",
+        "email": "Willy4@hotmail.com",
+        "firstName": "Darrick",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33997103",
+        "tenantId": null
+      },
+      {
+        "reference": "511c0f12-cea1-4d5f-9722-d5ca5d1fb7a3",
+        "email": "Kenya_Glover-Mante@hotmail.com",
+        "firstName": "Ubaldo",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4672849",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "efc6ed0d-66d5-4949-ab07-d6bfd4e42c41",
+        "name": "Security Analysis 1",
+        "description": "Analyze security vulnerabilities",
+        "status": "In progress",
+        "created_at": "2023-08-27T11:09:57.787Z",
+        "updated_at": "2023-08-28T00:59:04.284Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81b04764-c27c-427d-bf30-fed0e89354e4",
+        "name": "Security Analysis 2",
+        "description": "Identify potential threats",
+        "status": "Completed",
+        "created_at": "2023-08-27T15:53:09.184Z",
+        "updated_at": "2023-08-27T19:18:00.533Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3b76e70-441f-464a-beb4-7fe7875b0beb",
+        "name": "Security Analysis 3",
+        "description": "Evaluate system security",
+        "status": "Pending",
+        "created_at": "2023-08-27T21:50:44.740Z",
+        "updated_at": "2023-08-27T17:36:35.575Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faee727b-df43-46cf-9d8d-8870c2ee5229",
+        "name": "Security Analysis 4",
+        "description": "Assess risk levels",
+        "status": "On hold",
+        "created_at": "2023-08-28T06:50:42.447Z",
+        "updated_at": "2023-08-27T08:37:27.551Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae7f3a80-e05b-410b-a266-456a26891e14",
+        "name": "Security Analysis 5",
+        "description": "Implement security measures",
+        "status": "Under review",
+        "created_at": "2023-08-27T12:16:31.443Z",
+        "updated_at": "2023-08-27T19:20:18.069Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "d84ffaa9-89c5-4070-b934-3db4ace3c518",
+        "name": "Log Analysis 1",
+        "description": "Analyze system logs",
+        "status": "In progress",
+        "created_at": "2023-08-27T16:41:30.692Z",
+        "updated_at": "2023-08-27T20:32:12.501Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e6c146a-f69f-42cd-8938-9658d0feb730",
+        "name": "Log Analysis 2",
+        "description": "Monitor application performance",
+        "status": "Completed",
+        "created_at": "2023-08-27T19:45:35.367Z",
+        "updated_at": "2023-08-27T13:27:05.782Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87d3bd33-070e-4a3c-8ca9-7b4444776447",
+        "name": "Log Analysis 3",
+        "description": "Detect anomalies",
+        "status": "Pending",
+        "created_at": "2023-08-28T06:45:02.964Z",
+        "updated_at": "2023-08-27T13:06:41.172Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11040ffa-ed8b-4e93-a0f9-b21fe1bbb5fc",
+        "name": "Log Analysis 4",
+        "description": "Troubleshoot errors",
+        "status": "On hold",
+        "created_at": "2023-08-28T05:18:03.608Z",
+        "updated_at": "2023-08-28T06:15:50.819Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "580e3598-235d-4876-8b2b-e2bc83c83488",
+        "name": "Log Analysis 5",
+        "description": "Optimize system resources",
+        "status": "Under review",
+        "created_at": "2023-08-28T03:30:39.901Z",
+        "updated_at": "2023-08-27T09:48:33.872Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "b88ac067-269b-47c8-a357-f8c5f16745e5",
+        "name": "Landscape Analysis 1",
+        "description": "Analyze market trends",
+        "status": "In progress",
+        "created_at": "2023-08-27T21:16:06.651Z",
+        "updated_at": "2023-08-28T02:30:34.323Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91d08555-27a1-49f4-ade4-33f2bbe33c04",
+        "name": "Landscape Analysis 2",
+        "description": "Identify competitive landscape",
+        "status": "Completed",
+        "created_at": "2023-08-27T08:22:59.845Z",
+        "updated_at": "2023-08-27T20:16:18.170Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ddb9852-a7e2-4dda-892d-1e1a127dd72e",
+        "name": "Landscape Analysis 3",
+        "description": "Evaluate industry opportunities",
+        "status": "Pending",
+        "created_at": "2023-08-28T05:55:34.211Z",
+        "updated_at": "2023-08-27T22:25:35.570Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b045d11c-8ebd-4ebe-9e66-ae4d66a9553f",
+        "name": "Landscape Analysis 4",
+        "description": "Assess customer preferences",
+        "status": "On hold",
+        "created_at": "2023-08-27T15:13:56.942Z",
+        "updated_at": "2023-08-28T07:35:15.097Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9322f36e-c809-405a-be50-d37bbd438212",
+        "name": "Landscape Analysis 5",
+        "description": "Forecast future developments",
+        "status": "Under review",
+        "created_at": "2023-08-27T15:01:57.748Z",
+        "updated_at": "2023-08-27T19:53:53.772Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "6b43519c-3a1b-4d45-ba29-053866a60544",
+        "name": "Business Application 1",
+        "description": "Develop custom software solutions",
+        "status": "In progress",
+        "created_at": "2023-08-27T10:56:04.358Z",
+        "updated_at": "2023-08-27T21:03:06.816Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e9a3ce8-773c-4397-930c-5e2f30fc90ce",
+        "name": "Business Application 2",
+        "description": "Streamline business processes",
+        "status": "Completed",
+        "created_at": "2023-08-28T06:38:54.758Z",
+        "updated_at": "2023-08-28T06:55:18.088Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb84051a-289f-486f-a99a-dff0840a0d4f",
+        "name": "Business Application 3",
+        "description": "Improve operational efficiency",
+        "status": "Pending",
+        "created_at": "2023-08-28T02:47:40.771Z",
+        "updated_at": "2023-08-27T12:01:00.136Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46318040-1e2b-45bc-9c37-4609a696b156",
+        "name": "Business Application 4",
+        "description": "Enhance customer experience",
+        "status": "On hold",
+        "created_at": "2023-08-27T11:37:42.526Z",
+        "updated_at": "2023-08-28T03:36:07.751Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "247f7e3a-9f53-4143-bc0f-3a370a78c698",
+        "name": "Business Application 5",
+        "description": "Optimize resource allocation",
+        "status": "Under review",
+        "created_at": "2023-08-27T17:20:34.841Z",
+        "updated_at": "2023-08-27T13:10:17.885Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b1912d97-c8a0-4b82-a12a-11852701b45b",
+        "email": "Naomie33@yahoo.com",
+        "firstName": "Deron",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/687.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88063b7e-ac17-4fa1-909b-0088295608bc",
+        "email": "Horacio_Hauck64@hotmail.com",
+        "firstName": "Christop",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/984.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d897f52d-b915-44e3-b13b-62edb77d485b",
+        "email": "Francesco41@hotmail.com",
+        "firstName": "Linwood",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1007.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ea22cb5-7df7-4577-b002-fa646f82786d",
+        "email": "Juliet.Jacobson@yahoo.com",
+        "firstName": "Gaetano",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88288347",
+        "tenantId": null
+      },
+      {
+        "reference": "da33d3c6-249c-44fa-9588-d756da58cc3c",
+        "email": "Keely.Friesen-Kub7@gmail.com",
+        "firstName": "Karolann",
+        "lastName": "Beatty-Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security_analysis": [
+      {
+        "id": "0f05a378-948c-4a97-be8e-f020494fbc86",
+        "name": "Network Security Audit",
+        "description": "Comprehensive analysis of network security measures",
+        "status": "In Progress",
+        "created_at": "2023-08-27T10:57:04.630Z",
+        "updated_at": "2023-08-27T21:05:17.665Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d758ec1-5c36-4cfb-bd6a-d7678a978434",
+        "name": "Vulnerability Assessment",
+        "description": "Identification and mitigation of vulnerabilities",
+        "status": "Completed",
+        "created_at": "2023-08-27T08:30:18.618Z",
+        "updated_at": "2023-08-27T08:56:51.684Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a38d581-258a-487c-a54f-36322159ccf5",
+        "name": "Penetration Testing",
+        "description": "Testing system defenses against attacks",
+        "status": "Pending",
+        "created_at": "2023-08-27T22:19:22.487Z",
+        "updated_at": "2023-08-28T05:25:46.619Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b29072d-1d5e-4041-ba07-0fa917a3432c",
+        "name": "Security Incident Response",
+        "description": "Responding to and investigating security incidents",
+        "status": "Ongoing",
+        "created_at": "2023-08-27T16:09:26.560Z",
+        "updated_at": "2023-08-27T17:41:41.840Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d228e54f-e328-4e71-b240-b9853aef1b74",
+        "name": "Threat Intelligence Analysis",
+        "description": "Analysis of potential threats and risks",
+        "status": "Paused",
+        "created_at": "2023-08-27T18:43:21.635Z",
+        "updated_at": "2023-08-28T02:12:55.181Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "log_analysis": [
+      {
+        "id": "d792761b-02fb-4627-a71e-e44ff46f2749",
+        "name": "Application Log Analysis",
+        "description": "Analyzing application logs for errors and anomalies",
+        "status": "In Progress",
+        "created_at": "2023-08-27T21:19:34.868Z",
+        "updated_at": "2023-08-28T02:11:12.493Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0696d062-5c3c-4bd9-80bd-20890cf3e3b1",
+        "name": "Server Log Monitoring",
+        "description": "Monitoring server logs for security incidents",
+        "status": "Completed",
+        "created_at": "2023-08-28T02:43:39.478Z",
+        "updated_at": "2023-08-27T16:43:33.374Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7645c65-9ecf-4a2c-8091-0f666798a7e2",
+        "name": "Network Traffic Analysis",
+        "description": "Analyzing network traffic patterns for abnormalities",
+        "status": "Pending",
+        "created_at": "2023-08-27T14:14:23.825Z",
+        "updated_at": "2023-08-28T04:19:06.551Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7355e1a8-0431-49f9-b0cb-4ba264f9dff4",
+        "name": "Database Activity Monitoring",
+        "description": "Monitoring database activity for unauthorized access",
+        "status": "Ongoing",
+        "created_at": "2023-08-27T17:46:26.100Z",
+        "updated_at": "2023-08-28T01:53:13.439Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f436213a-ba11-48dc-9ada-51ed7f6aed02",
+        "name": "System Log Review",
+        "description": "Reviewing system logs for performance issues",
+        "status": "Paused",
+        "created_at": "2023-08-28T05:40:45.097Z",
+        "updated_at": "2023-08-28T03:39:35.775Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape_analysis": [
+      {
+        "id": "b8765072-7b8f-4a5f-8489-00b11b1bd18c",
+        "name": "Cloud Infrastructure Assessment",
+        "description": "Assessing cloud infrastructure for efficiency and security",
+        "status": "In Progress",
+        "created_at": "2023-08-28T01:05:45.573Z",
+        "updated_at": "2023-08-28T05:16:47.708Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41293be7-9a12-4092-844f-2e5a6c485e8d",
+        "name": "IT Environment Audit",
+        "description": "Auditing IT environment for compliance and best practices",
+        "status": "Completed",
+        "created_at": "2023-08-27T22:36:11.823Z",
+        "updated_at": "2023-08-27T10:32:28.991Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a39812f1-8312-4b2b-b154-c9e04338b9a7",
+        "name": "Technology Stack Evaluation",
+        "description": "Evaluating technology stack for optimization and modernization",
+        "status": "Pending",
+        "created_at": "2023-08-27T20:05:08.368Z",
+        "updated_at": "2023-08-28T01:08:38.295Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d7caf5a-3492-4551-8d39-872d88b185cc",
+        "name": "Digital Transformation Analysis",
+        "description": "Analyzing digital transformation initiatives for effectiveness",
+        "status": "Ongoing",
+        "created_at": "2023-08-27T13:22:50.954Z",
+        "updated_at": "2023-08-28T05:27:44.802Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8a2e604-5b39-4e06-9ce0-0cd2d4ea65f7",
+        "name": "Cybersecurity Maturity Assessment",
+        "description": "Assessing cybersecurity maturity level and identifying gaps",
+        "status": "Paused",
+        "created_at": "2023-08-28T06:46:35.453Z",
+        "updated_at": "2023-08-27T10:09:25.420Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "business_application": [
+      {
+        "id": "b40353f0-4814-4749-b858-8de1ba9b43ba",
+        "name": "Sales CRM",
+        "description": "A CRM system for managing sales activities",
+        "status": "In Progress",
+        "created_at": "2023-08-27T16:54:33.793Z",
+        "updated_at": "2023-08-27T22:25:59.332Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26e0417b-df1e-483f-a51d-594aec90886e",
+        "name": "Inventory Management System",
+        "description": "A system for tracking and managing inventory",
+        "status": "Completed",
+        "created_at": "2023-08-27T21:51:35.216Z",
+        "updated_at": "2023-08-28T07:25:58.376Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c835ab4e-cdd5-48d2-b0f5-ac5772174a85",
+        "name": "Project Management Tool",
+        "description": "A tool for managing projects and tasks",
+        "status": "Pending",
+        "created_at": "2023-08-27T12:10:43.812Z",
+        "updated_at": "2023-08-27T22:53:12.119Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd7916d6-8842-4f15-b8f4-231fffba2551",
+        "name": "Customer Support Portal",
+        "description": "A portal for customer support and issue tracking",
+        "status": "Ongoing",
+        "created_at": "2023-08-27T10:08:21.508Z",
+        "updated_at": "2023-08-28T06:17:58.538Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a7104e4-87ed-4e6e-b1cf-02fe080fcd89",
+        "name": "HR Management Software",
+        "description": "Software for managing HR processes and employee data",
+        "status": "Paused",
+        "created_at": "2023-08-27T09:15:10.954Z",
+        "updated_at": "2023-08-27T19:01:35.453Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9f28c2cd-c129-43f1-ab0d-78e5ebd8d153",
+        "email": "Itzel.Wunsch35@gmail.com",
+        "firstName": "Kareem",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51319708",
+        "tenantId": null
+      },
+      {
+        "reference": "20d7a4c2-b965-447a-8d04-c5a65c7389fc",
+        "email": "Princess86@yahoo.com",
+        "firstName": "Oleta",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/661.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12fd03a3-d7ba-496c-a276-29d0286a8628",
+        "email": "Abdullah_Armstrong39@yahoo.com",
+        "firstName": "Cindy",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/425.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb118d3c-3098-4053-9dfa-68fb5dfa0e12",
+        "email": "Vladimir49@yahoo.com",
+        "firstName": "Rocky",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16557998",
+        "tenantId": null
+      },
+      {
+        "reference": "ebcc64a9-a6df-47a1-a48a-f804b455b33a",
+        "email": "Leonel_Feil14@gmail.com",
+        "firstName": "Emory",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61600172",
+        "tenantId": null
+      }
+    ]
+  }
+]
